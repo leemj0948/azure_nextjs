@@ -1,0 +1,3 @@
+[submodule "submodules/nwp-test"]
+	path = submodules/nwp-test
+	url = https://github.com/Reshmi-Sriram/nwp-test.git
