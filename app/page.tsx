@@ -1,6 +1,9 @@
 // import Image from 'next/image'
 import styles from './page.module.css'
-
+export async function getServerSideProps() {
+  const data = JSON.stringify({ time: new Date() });
+  return { props: { data } };
+}
 export default function Home() {
   return (
     <main className={styles.main}>
